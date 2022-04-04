@@ -274,13 +274,6 @@ h1{
     padding: 15px;
     background-color: #c085f0;
     border-radius: 10px;
-    transition: transform 0.3s;
-
-}
-
-.card:hover{
-    transform: scale(1.2);    
-    box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card h2{
@@ -291,6 +284,10 @@ h1{
     height: 32px;
     width: 32px;
     margin-left: 10px;
+}
+
+.bg-laica-primary{
+    background-color: var(--primary);
 }
 
 /* MEDIA QUERIES */
