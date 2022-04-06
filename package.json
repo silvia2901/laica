@@ -1,0 +1,19 @@
+{
+  "name": "laica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvia2901/laica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvia2901/laica/issues"
+  },
+  "homepage": "https://github.com/silvia2901/laica#readme"
+}
