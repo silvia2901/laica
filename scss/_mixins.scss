@@ -1,0 +1,6 @@
+@mixin general($heigth) {
+    width: 300px;
+    height: $heigth;
+    border-radius: 10px;
+    border: none; 
+}

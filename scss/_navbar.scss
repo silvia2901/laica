@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary;
+    img{
+       width: 100px;
+       height: 100px;
+       margin-top: 10px;
+       margin-left: 20px;
+       margin-bottom: 10px;
+   }
+    ul {
+       display: flex;
+
+       li{
+           margin-right: 50px;
+           a{
+               font-size: 1rem;
+               color: $secundary;
+
+               &:hover {
+                   font-weight: bold;
+               }
+           }
+       }
+    }
+}

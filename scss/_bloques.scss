@@ -1,0 +1,102 @@
+
+
+.fondo{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    opacity: 0.8;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+}
+.bloque{
+    display: flex;
+    background-color: var(--secundary);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.bloqueimg{
+    padding: 30px;
+    text-align: center;
+}
+.bloqueparrafo{
+        padding: 30px;
+}
+.bloqueparrafosomos{
+    /* padding: 30px; */
+    background-image: url(../imagenes/foto5.png);
+    height: 600px;
+    @extend .fondo;
+    background-size: cover;
+    align-items: center;
+  
+    p{
+       font-size: 2rem;
+       margin-right: 3rem;
+       margin-left: 3rem;
+       color: #FFF;
+       z-index: 1001;
+   }
+    
+}
+ 
+.bloqueparrafomision{
+    /* padding: 30px; */
+    background-image: url(../imagenes/foto6.jpeg);
+    height: 600px;
+    @extend .fondo;
+    background-size: cover;
+    align-items: center;
+  
+    p{
+       font-size: 2rem;
+       margin-right: 3rem;
+       margin-left: 3rem;
+       color: #FFF;
+       z-index: 1001;
+   }
+    
+}
+
+.bloqueparrafocontacto{
+    /* padding: 30px; */
+    background-image: url(../imagenes/foto7.png);
+    height: 600px;
+    background-size: contain;
+    @extend .fondo;
+    justify-content: center;
+}
+.bloqueparrafocontacto_interno{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    input[type="text"]{
+    @include general(30px)
+   }
+   input[type="submit"]{
+       width: 300px;
+       height: 30px;
+       background-color: $primary;
+       border-radius: 10px;
+       border: none;
+       color: #FFF;
+   }
+   textarea{
+    @include general(200px)
+   }
+   
+}
+
+.bloqueparrafocontacto_interno > div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bloqueparrafocontacto_interno > label{
+    font-size: 2rem;
+}
+ 
+.bloqueimg h2{
+    margin-bottom: 10px;
+}

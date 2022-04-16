@@ -1,0 +1,51 @@
+$medidas: (
+     ancho: 100%,
+     med:200px,
+     margen:15px,
+
+);
+
+
+.contenedor{
+    display: flex;
+    width: map-get($medidas, ancho);
+    height: 500px;
+    background-color: $secundary;
+    margin-bottom: 3rem;
+}
+.titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: map-get($medidas, margen);
+    margin-bottom: map-get($medidas, margen);
+}
+.img-redondeada{
+    border-radius:50%; 
+    width:80%; 
+    height: auto;
+}
+.contener{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img{
+       margin: 20px;
+       width:map-get($medidas, med);
+       height:map-get($medidas, med);
+   }
+   h2{
+       font-size: 1.6rem;
+       margin-top: 2rem;
+   }
+   div{ 
+       text-align: center;
+       margin: 30px;
+   }
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: map-get($medidas, margen);
+}

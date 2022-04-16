@@ -1,0 +1,24 @@
+footer{
+    display: flex;   
+    background-color: $primary;
+    ul{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 80px;
+
+       font-size: 1rem;
+       color: $secundary;
+       margin-right: 80px;
+       a{
+           &:hover {
+               font-weight: bold;
+           }
+           font-size: 1rem;
+           color:$secundary;
+           margin-right: 80px;
+       }    
+   }
+
+}

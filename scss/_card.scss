@@ -1,0 +1,38 @@
+.cardContainer {
+    display: grid;    
+    column-gap: 2rem; 
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+.imgperdidos{
+    width: 300px;
+    height: 300px
+    
+}
+.card{
+    padding: 15px;
+    background-color: #c085f0;
+    border-radius: 10px;
+    transition: .3s;
+
+    h2{
+       font-size: 1.2rem;
+       margin-bottom: 1rem;
+   }
+   &:hover {
+       transform: scale(1.1);
+   }
+}
+
+ .redessociales{
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+}
+
+.bg-laica-primary{
+    background-color: $primary;
+}
