@@ -1,19 +1,31 @@
 {
   "name": "laica",
   "version": "1.0.0",
-  "description": "",
+  "description": "Historias de perros y gatos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silvia2901/laica.git"
   },
-  "author": "",
+  "author": "Silvia Acuña",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/silvia2901/laica/issues"
   },
-  "homepage": "https://github.com/silvia2901/laica#readme"
+  "homepage": "https://github.com/silvia2901/laica#readme",
+  "keywords": [
+    "perros",
+    "gatos",
+    "refugios",
+    "historias"
+  ],
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }
