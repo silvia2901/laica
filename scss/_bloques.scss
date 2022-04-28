@@ -1,5 +1,3 @@
-
-
 .fondo{
     background-repeat: no-repeat;
     background-position-x: center;
@@ -16,19 +14,21 @@
     margin-bottom: 30px;
 }
 .bloqueimg{
+    width: 30%;
     padding: 30px;
     text-align: center;
 }
 .bloqueparrafo{
-        padding: 30px;
+    width: 70%;
+    padding: 30px;
 }
 .bloqueparrafosomos{
-    /* padding: 30px; */
     background-image: url(../imagenes/foto5.png);
     height: 600px;
     @extend .fondo;
     background-size: cover;
     align-items: center;
+    margin-bottom: 30px;
   
     p{
        font-size: 2rem;
@@ -41,12 +41,13 @@
 }
  
 .bloqueparrafomision{
-    /* padding: 30px; */
+    
     background-image: url(../imagenes/foto6.jpeg);
     height: 600px;
     @extend .fondo;
     background-size: cover;
     align-items: center;
+    margin-bottom: 30px;
   
     p{
        font-size: 2rem;
@@ -59,12 +60,13 @@
 }
 
 .bloqueparrafocontacto{
-    /* padding: 30px; */
+
     background-image: url(../imagenes/foto7.png);
     height: 600px;
     background-size: contain;
     @extend .fondo;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .bloqueparrafocontacto_interno{
     display: flex;

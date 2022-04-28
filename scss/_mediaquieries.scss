@@ -1,23 +1,41 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
     footer {
-        height: 150px;
+
+        flex-direction: column;
+        justify-content: center;
+
         ul{
-           flex-direction: column;
-           margin-top: 30px;
-       }
-       li{
-           margin-bottom: 10px;
-           a{
-               margin:  0;
-           }
-       }
-       
+            margin: 0;
+            li{
+                a{
+                   margin: 3px;
+                }
+            }
+        }       
     }
    
     .bloque{
         flex-direction: column;
     }
+
+    .bloqueparrafosomos{
+        height: 800px;
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    
+    .bloqueparrafomision{
+        height: 800px;
+    }
+
+    .bloqueimg{
+        width: 100%;
+    }
+    .bloqueparrafo{
+        width: 100%;
+    }    
 
 }
 
